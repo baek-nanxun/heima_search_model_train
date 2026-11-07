@@ -1,0 +1,18 @@
+{
+  "prompt_version": "recruitment_label_prompts_v2",
+  "gemini_model": null,
+  "structured_output_mode": "google-genai.response_json_schema.v1",
+  "task_counts": {
+    "benefit_classification": 10683,
+    "entity_extraction": 39975,
+    "job_name_classification": 34511,
+    "settlement_classification": 263,
+    "taxonomy_leaf_to_parent": 653,
+    "taxonomy_level2_to_children": 155,
+    "work_time_classification": 4018,
+    "work_type_classification": 275,
+    "workplace_classification": 3232
+  },
+  "formal_training_ready": false,
+  "note": "Run quality review and freeze a human-reviewed evaluation set before formal training."
+}

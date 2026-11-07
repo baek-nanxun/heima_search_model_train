@@ -1,0 +1,33 @@
+# Local Python environments and machine-specific setup
+.venv
+.venv*/
+.uv-shared-setup/
+activate-shared.sh
+uv-shared
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Credentials and browser sessions
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.auth-state.json
+
+# Models, training artifacts and duplicate/raw corpora
+/model_files/
+/code/outputs/
+/dist/
+/code/data/raw/
+/code/data/processed/
+/code/data/gemini_labeled_v2/tasks_fixed/
+/code/data/datasets/candidates/
+/code/data/datasets/llamafactory/*.jsonl
+# The original training data are shipped compressed under cloud-data/.

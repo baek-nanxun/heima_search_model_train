@@ -1,0 +1,161 @@
+{
+  "recruitment_sft_train": {
+    "file_name": "recruitment_sft_train.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "recruitment_sft_dev": {
+    "file_name": "recruitment_sft_dev.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "recruitment_sft_diagnostic": {
+    "file_name": "recruitment_sft_diagnostic.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "recruitment_sft_frozen_test": {
+    "file_name": "recruitment_sft_frozen_test.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "recruitment_dpo_train": {
+    "file_name": "recruitment_dpo_train.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_dpo_train_v2": {
+    "file_name": "recruitment_dpo_train_v2.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_dpo_train_v3": {
+    "file_name": "recruitment_dpo_train_v3.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_sft_frozen_test_quick_30pct": {
+    "file_name": "recruitment_sft_frozen_test_quick_30pct.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "recruitment_sft_frozen_test_holdout_70pct": {
+    "file_name": "recruitment_sft_frozen_test_holdout_70pct.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "recruitment_dpo_train_v4_shortfield_focus": {
+    "file_name": "recruitment_dpo_train_v4_shortfield_focus.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_dpo_train_v6_business_aligned": {
+    "file_name": "recruitment_dpo_train_v6_business_aligned.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_dpo_train_v7_llm_classification_1k": {
+    "file_name": "recruitment_dpo_train_v7_llm_classification_1k.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_dpo_train_v7_sft_gap_targeted": {
+    "file_name": "recruitment_dpo_train_v7_sft_gap_targeted.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_sft_repair_v2_llm_1k": {
+    "file_name": "recruitment_sft_repair_v2_llm_1k.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations"
+    }
+  },
+  "recruitment_dpo_llm_generated_v1_train": {
+    "file_name": "recruitment_dpo_llm_generated_v1_train.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_dpo_llm_generated_v1_eval": {
+    "file_name": "recruitment_dpo_llm_generated_v1_eval.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_dpo_codex_direct_v2_train": {
+    "file_name": "recruitment_dpo_codex_direct_v2_train.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "recruitment_dpo_codex_direct_v2_eval": {
+    "file_name": "recruitment_dpo_codex_direct_v2_eval.jsonl",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}
